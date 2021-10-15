@@ -22,4 +22,4 @@ elif choose=='1':
         val=eval(Num[i])*(2**i)
         value=value+val
     t=time.perf_counter()-s
-    print(value),print('计算用时=',t*1000,'ms')#233
+    print(value),print('计算用时=',t*1000,'ms')#计算时间
