@@ -24,4 +24,4 @@ elif choose=='1':
     t=time.perf_counter()-s
     print(value),print('计算用时=',t*1000,'ms')#计算时间
 else:
-    print('输入错误，程序退出')
+    print('输入错误，程序退出\n请重新打开程序')
