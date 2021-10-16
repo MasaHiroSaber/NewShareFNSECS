@@ -1,5 +1,5 @@
-choose=input('二进制转十进制输入1/十进制转二进制输入2\n请输入:')
 num=input('Number=')#输入数字
+choose=input('二进制转十进制输入1/十进制转二进制输入2\n请输入:')
 long=len(num)
 Num=eval(num)
 import time
@@ -23,3 +23,5 @@ elif choose=='1':
         value=value+val
     t=time.perf_counter()-s
     print(value),print('计算用时=',t*1000,'ms')#计算时间
+else:
+    print('输入错误，程序退出')
