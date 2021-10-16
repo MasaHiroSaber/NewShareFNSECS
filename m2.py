@@ -4,7 +4,6 @@ try:
         import random
         import os
         import time
-
         cp = random.randint(0, 2)
         Website = random.randint(93000000, 95000000)
         WebsiteX = '"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://pixiv.moe/illust/' + str(Website)
