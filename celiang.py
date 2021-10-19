@@ -38,11 +38,12 @@ while True:
     blackred=liangchiheimiangaocha-liangchihongmiangaocha
     if blackred<0:
         BRR=blackred+0.1
+        print('黑面高差与红面高差之差=', round(BRR, 3), 'm')
     elif blackred>0:
         BRR=blackred-0.1
+        print('黑面高差与红面高差之差=', round(BRR, 3), 'm')
     else:
         print('数据可能有误')
-    print('黑面高差与红面高差之差=',round(BRR,3),'m')
     if BRR>0.005:
         print('黑面高差与红面高差之差过大')
     gaochazhongshus=liangchiheimiangaocha+liangchihongmiangaocha
