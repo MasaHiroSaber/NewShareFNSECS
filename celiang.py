@@ -42,9 +42,10 @@ while True:
     elif blackred>0:
         BRR=blackred-0.1
         print('黑面高差与红面高差之差=', round(BRR, 3), 'm')
-    else:
+    if blackred==0:
+        BRR=0
         print('数据可能有误')
-    if BRR>0.005:
+    if BRR>0.005 :
         print('黑面高差与红面高差之差过大')
     gaochazhongshus=liangchiheimiangaocha+liangchihongmiangaocha
     if gaochazhongshus<0:
