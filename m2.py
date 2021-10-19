@@ -4,11 +4,9 @@ try:
         import random
         import os
         import time
-
         cp = random.randint(0, 2)
         Website = random.randint(93000000, 95000000)
-        WebsiteX = '"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://pixiv.moe/illust/' + str(
-            Website)
+        WebsiteX = '"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://pixiv.moe/illust/' + str(Website)
         WebsiteS = '"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" http://passport2.chaoxing.com/'
         if (you > 2 or you < 0):
             print("没有这种出法哦")
