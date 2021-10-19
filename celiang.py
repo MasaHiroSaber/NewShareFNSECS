@@ -28,7 +28,7 @@ while True:
     if houchirbdushucha>0.003:
         print('后尺红黑面读数差过大')
     qianchirbdushucha=abs(eval(qianchiblackzhong)+eval(K)-eval(qianchiredzhong))
-    print('前尺红黑面读数差=',round(qianchirbdushucha,3))
+    print('前尺红黑面读数差=',round(qianchirbdushucha,3),'m')
     if qianchirbdushucha>0.003:
         print('前尺红黑面读数差过大')
     liangchiheimiangaocha=eval(houchibalckzhong)-eval(qianchiblackzhong)
